@@ -558,7 +558,7 @@ def niceString2uri(aUriString, namespaces=None):
 
 
 def entityTriples(rdfGraph, anEntity, excludeProps=False, excludeBNodes=False,
-                  orderProps=[RDF, RDFS, OWL.OWLNS, DC.DCNS]):
+                  orderProps=[RDF, RDFS]):
     """
     Returns the pred-obj for any given resource, excluding selected ones..
 
