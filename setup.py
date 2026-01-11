@@ -22,8 +22,8 @@ CLASSIFIERS = [
     'Topic :: Scientific/Engineering :: Bio-Informatics'
 ]
 INSTALL_REQUIRES = [
-    'networkx==2.4',
-    'rdflib==4.2.1',
+    'networkx>=3.4',
+    'rdflib>=5.0.0',
     'rdflib-jsonld',
     'requests',
     'requests_file',
